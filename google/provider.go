@@ -125,6 +125,7 @@ func Provider() terraform.ResourceProvider {
 			"google_sql_database_instance":                 resourceSqlDatabaseInstance(),
 			"google_sql_user":                              resourceSqlUser(),
 			"google_organization_policy":                   resourceGoogleOrganizationPolicy(),
+			"google_organization_iam_policy":               resourceGoogleOrganizationIamPolicy(),
 			"google_project":                               resourceGoogleProject(),
 			"google_project_iam_policy":                    resourceGoogleProjectIamPolicy(),
 			"google_project_iam_binding":                   resourceGoogleProjectIamBinding(),
